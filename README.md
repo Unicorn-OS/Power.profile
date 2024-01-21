@@ -16,6 +16,8 @@ quote:
 >This is due to an intentional change. To give it a better visibility, and because it might surprise many users and consider it a bug, it’s documented here."
 
 ## Login Screen Sleep Setting
+https://discussion.fedoraproject.org/t/fedora-38-silverblue-suspends-even-though-power-settings-disallow-it/88659/4
+
 quote:
 >"If you’re at the login screen (e.g. after a system boot or a user logout), the default options are used (15 minutes timeout).
 >
