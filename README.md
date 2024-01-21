@@ -18,6 +18,14 @@ quote:
 ## Login Screen Sleep Setting
 https://discussion.fedoraproject.org/t/fedora-38-silverblue-suspends-even-though-power-settings-disallow-it/88659/4
 
+```
+sudo -u gdm dbus-run-session gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-battery-timeout 0
+```
+
+```
+sudo -u gdm dbus-run-session gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-ac-timeout 0
+```
+
 quote:
 >"If you’re at the login screen (e.g. after a system boot or a user logout), the default options are used (15 minutes timeout).
 >
